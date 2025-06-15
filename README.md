@@ -11,15 +11,31 @@ This project recommends similar movies based on genres using CountVectorizer and
 - scikit-learn
 
 ##  Dataset
-A CSV file (`data/movies.csv`) with movie titles and genres.
+A CSV file (`movies.csv`) with movie titles and genres.
 
 ```
-title,genres
-The Matrix,Action|Sci-Fi
-John Wick,Action|Thriller
-Interstellar,Adventure|Drama|Sci-Fi
-The Notebook,Drama|Romance
-Inception,Action|Adventure|Sci-Fi
+movieId,title,genres
+1,"Toy Story (1995)",Adventure|Animation|Children|Comedy|Fantasy
+2,"Jumanji (1995)",Adventure|Children|Fantasy
+3,"Grumpier Old Men (1995)",Comedy|Romance
+4,"Waiting to Exhale (1995)",Comedy|Drama|Romance
+5,"Father of the Bride Part II (1995)",Comedy
+6,"Heat (1995)",Action|Crime|Thriller
+7,"Sabrina (1995)",Comedy|Romance
+8,"Tom and Huck (1995)",Adventure|Children
+9,"Sudden Death (1995)",Action
+10,"GoldenEye (1995)",Action|Adventure|Thriller
+11,"The American President (1995)",Comedy|Drama|Romance
+12,"Dracula: Dead and Loving It (1995)",Comedy|Horror
+13,"Balto (1995)",Adventure|Animation|Children
+14,"Nixon (1995)",Drama
+15,"Cutthroat Island (1995)",Action|Adventure|Romance
+16,"Casino (1995)",Crime|Drama
+17,"Sense and Sensibility (1995)",Drama|Romance
+18,"Four Rooms (1995)",Comedy
+19,"Ace Ventura: When Nature Calls (1995)",Comedy
+20,"Money Train (1995)",Action|Comedy|Crime|Drama|Thriller
+
 ```
 
 ##  How it works
